@@ -7,4 +7,11 @@
   </parent>
   <artifactId>ftEAR</artifactId>
   <packaging>ear</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.schrage.reference</groupId>
+  		<artifactId>ftWEB</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

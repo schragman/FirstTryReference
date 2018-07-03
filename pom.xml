@@ -5,8 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>ftWEB</module>
+
   	<module>ftEJB</module>
+  	<module>ftWEB</module>
+  	<module>ftEAR</module>
   </modules>
 
   <build>

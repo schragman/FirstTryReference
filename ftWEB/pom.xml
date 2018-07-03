@@ -7,4 +7,11 @@
   </parent>
   <artifactId>ftWEB</artifactId>
   <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.schrage.reference</groupId>
+  		<artifactId>ftEJB</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
