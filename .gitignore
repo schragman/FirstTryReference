@@ -1,4 +1,5 @@
 .settings
 .classpath
 .project
+faces-config.pageflow
 */.gitignore
