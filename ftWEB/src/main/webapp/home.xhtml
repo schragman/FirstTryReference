@@ -14,5 +14,29 @@
 		<h:outputLabel value="#{mymsg['home.Ausgabe']}"></h:outputLabel>
 		<p/>
 		<h:outputText value="#{homeForm.beispielWert}"></h:outputText>
+
+		<h:panelGrid columns="3" border="1">
+
+			<f:facet name="header">
+				<h:outputText value="Header"/>
+			</f:facet>
+
+			<h:outputLabel value="#{homeForm.meinenEJBSatz}"/>
+			<h:outputLabel value="Two"/>
+			<h:outputLabel value="Three"/>
+			<h:outputLabel value="Four"/>
+			<h:outputLabel value="Five"/>
+			<h:outputLabel value="Six"/>
+
+			<f:facet name="footer">
+				<h:outputText value="Footer"/>
+			</f:facet>
+
+		</h:panelGrid>
+
+		<f:facet name="egal">
+			<p>Header"</p>
+		</f:facet>
+
 	</h:body>
 </html>
